@@ -1,0 +1,38 @@
+#frame{
+    box-shadow: rgba(0, 0, 0, 0.608) 5px 5px 10px;
+    
+}
+#frame>div{
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.608);
+}
+#catagories{
+    width: 80vw;
+    overflow-x: scroll;
+    display: flex;
+    scrollbar-width: none;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    #contact>div{
+        width: 100%;
+        padding: 20px;
+    }
+    #contact>form{
+        width: 100%;
+        padding: 20px;
+    }
+    #catagories{
+        justify-content: flex-start;
+    }
+    #hide{
+        display: none;
+    }
+    #menuBtn{
+        display: block;
+    }
+    #commentBox{
+        border-left:0px;
+        border-top:1px;
+    }
+}
